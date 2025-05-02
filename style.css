@@ -1,0 +1,51 @@
+/* Reset default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  /* Navbar styles */
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(255, 140, 0);
+    padding: 15px 30px;
+  }
+  
+  nav.scrolled {
+    background-color: black;
+    color: wheat;
+    ul li a {
+        color: wheat;
+    }
+}
+    section{
+    height: 2000px;
+    padding-top: 100px;
+    }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s, background 0.3s;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  
